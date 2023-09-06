@@ -11,6 +11,6 @@ app.use(express.static('dist'))
 
 app.listen(PORT, () => {
   /* eslint-disable */
-  console.log('server started on port 5000')
+  console.log('server started on port ' + PORT)
   /* eslint-disable */
 })
